@@ -939,7 +939,7 @@ function bulletCollideRock(bullet) {
 	    if(ps == null) continue;
 	    var turret = ps.turret;
             if (rock.color == "lightblue")
-                turret.life = Math.min(100, turret.life + 10);
+                turret.life = 200;
             if (rock.r < 20) {
                  rock.remove();
                 //score += 1;
