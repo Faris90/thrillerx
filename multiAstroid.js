@@ -222,7 +222,7 @@ function Turret(x, y, sessionId) {
     this.recoilX = 0;
     this.recoilY = 0;
     this.sessionId = sessionId;
-    this.life = 100;
+    this.life = 200;
 }
 
 Turret.prototype = {
