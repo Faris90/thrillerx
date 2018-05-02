@@ -830,7 +830,7 @@ function rockCollideTurret(rock, ps) {
             //console.log("remove player 2 " + ps.sessionId);
             ps.remove();
         } else {
-            ps.turret.life = ps.turret.life - 5;
+            ps.turret.life = ps.turret.life - damage;
             //io.sockets.emit("damagePlayer", {
             //    "sessionId": ps.sessionId,
             //   "life": ps.turret.life
